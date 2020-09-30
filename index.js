@@ -19,7 +19,11 @@ class ticTacNano{
         };
 
         this.turn = function(pos = "A1" || "A2" || "A3" || "B1" || "B2" || "B3" || "C1" || "C2" || "C3",player = "x" || "o"){
+            if(this.board[pos] != ''){
+                return false
+            }
             this.board[pos] = player
+            return true
         };
 
         this.didWin = function(){
