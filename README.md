@@ -33,6 +33,6 @@ a.visualize()
 [tic-tac-nano-2](https://github.com/Bob09113/tic-tac-nano-2)
 
 ## Changelog
-V1.0.0 - Initial Release
-V1.0.1 - Added the README.md file
-V1.0.2 - Added square lock to the turns
+V1.0.0 - Initial Release\n
+V1.0.1 - Added the README.md file\n
+V1.0.2 - Added square lock to the turns\n
