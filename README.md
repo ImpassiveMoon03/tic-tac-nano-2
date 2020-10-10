@@ -36,4 +36,5 @@ a.visualize()
 V1.0.0 - Initial Release<br />
 V1.0.1 - Added the README.md file<br />
 V1.0.2 - Added square lock to the turns<br />
-V1.0.3 - Added a move log
+V1.0.3 - Added a move log<br />
+V1.0.4 - Added a draw condition
