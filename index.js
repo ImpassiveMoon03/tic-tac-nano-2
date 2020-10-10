@@ -91,7 +91,10 @@ class ticTacNano{
             else if(this.board.A3 === this.board.B2 && this.board.B2 === this.board.C1 && this.board.A3 === 'o'){
                 return `${oPlayer} Wins`
             }
-        
+            else if(this.board.A1 != 'ㅤ' && this.board.A2 != 'ㅤ' && this.board.A3 != 'ㅤ' && this.board.B1 != 'ㅤ' && this.board.B2 != 'ㅤ' && this.board.B3 != 'ㅤ' && this.board.C1 != 'ㅤ' && this.board.C2 != 'ㅤ' && this.board.C3 != 'ㅤ'){
+                return `No one Wins`
+            }
+
             else{
                 return false
             }
@@ -116,5 +119,5 @@ class ticTacNano{
         }
     }
 }
-
+console.log('Tic Tac Nano 2\nBy: Impassive Development')
 module.exports = ticTacNano
