@@ -33,7 +33,7 @@ class ticTacNano{
             }
             this.board[pos] = player
             this.moveLog.push(`${this.moveLog.length+1} - ${b} placed an ${player} on board space ${pos}`)
-            if(this.didWin()){
+            if(this.didWin() != 'No one Wins' && this.didWin() != false){
                 this.moveLog.push(`${this.moveLog.length+1} - ${this.didWin()}`)
             }
             return true
