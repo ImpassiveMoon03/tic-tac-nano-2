@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bob09113/tic-tac-nano-2"
+  },
+  "author": "Robert Offord",
   "license": "ISC"
 }
